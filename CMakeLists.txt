@@ -4,4 +4,6 @@ project ("ci")
 
 set(CMAKE_CXX_STANDARD 17)
 
+enable_testing()
+
 add_subdirectory ("src")
